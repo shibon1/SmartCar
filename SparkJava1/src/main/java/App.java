@@ -640,7 +640,7 @@ public class App extends javax.swing.JFrame {
                 VehicleBattery batteryData = batteryResponse.getData();
                 double battery = batteryData.getPercentRemaining();
 
-                res6.append("O carro " + vin + " está com a restante  " + battery + " de battery. " + "\n");
+                res7.append("O carro " + vin + " está com a restante  " + battery + " de battery. " + "\n");
 
             } catch (SmartcarException ex) {
                 Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
